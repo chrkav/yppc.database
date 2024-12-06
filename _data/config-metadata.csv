@@ -1,15 +1,22 @@
 field,display_name,browse_link,external_link
 title,Title,
-creator,Creator,
-date,Date Created,
+creator,Author,
+date,Date Published,
 description,Description,
-subject,Subjects,true
-location,Location
+subject,Age Group,true
+location,Length
 latitude,Latitude
 longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+source,Publisher
+identifier,Co-Located?,,
+type,Notes,
+format,Copies,
+language,Musical?
+rights,Licensing,
+rightsstatement,Adaptation?,,true
+display_template,Adapted From,
+object_location,Required Cast,
+image_small,Boy,
+image_thumb,Girl,
+image_alt_text,Gender Neutral,
+object_transcript,Ensemble?
