@@ -1,7 +1,7 @@
 ---
 title: Length
 layout: cloud
-permalink: /length.html
+permalink: /locations.html
 # Default locations page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.locations-fields"
 # a cloud visualization will be added below the content in this file
