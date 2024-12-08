@@ -1,9 +1,14 @@
 Field,display_name,Definition,dc-map,Notes,Example,Required,used-by
-objectid,,a unique string with no spaces or special characters that will be used as id in the website,na,must be unique in the project,ts104,yes,everything
+id,,a unique string with no spaces or special characters that will be used as id in the website,na,must be unique in the project,ts104,yes,everything
 filename,,the name of the corresponding file in the project’s objects directory. ,na,"Should have the extension (.jpg, .pdf, or .mp3), no spaces or special characters.",ts104.pdf,yes,Item
 youtubeid,,The YouTube ID of an item hosted on YouTube. This should be blank for all non-youtube items. It is used to access the YouTube API for images and video of the item.,na,"You can find the ID of a YouTube video by looking at the end of a Share link, e.g. in https://youtu.be/CVXQ3X6Q8oU the ID is the string after the slash. Make sure this field is empty (no spaces!) for non-youtube items!",CVXQ3X6Q8oU,yes (for youtube items only),everything
-title,Item Title,A name given to the resource. (OCA),dcterms:title,primary name of the object,First item,yes,"Browse,Map,Timeline,Data,Item"
-creator,Creator,An entity primarily responsible for making the resource. (OCA) ,dcterms:creator,"creator/author of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",suggested,Item
+title,Title,A name given to the resource. (OCA),dcterms:title,primary name of the object,First item,yes,"Browse,Map,Timeline,Data,Item"
+author,Author,An entity primarily responsible for making the resource. (OCA) ,dcterms:creator,"creator/author of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",suggested,Item
+age_group,Age Group,The age group that the play is appropriate for, (OCA) ,local standard
+boy,Boys,How many roles there are for boys,local standard
+girl,Girls,How many roles there are for girls,local standard
+gender_neutral,Gender Neutral,How many roles there are for any gender,local standard
+required_cast,Required Cast,How many cast members are needed for this play. ,
 date,Date Created,A point or period of time associated with an event in the lifecycle of the resource. (OCA) ,dc:date,"date of creation of original object, given in ISO 8601 format. In this simple project, please use only a single date.",1901-03-01,suggested,"Browse,Timeline,Data,Item"
 description,Description,An account of the resource. (OCA) ,dcterms:description,"A free text description or abstract of the object. Anything significant about the digital resource not covered elsewhere. Use standard punctuation and grammar to describe the item’s history, physical appearance, contents, abstract, etc.",Black and white photograph of white pines in forest,suggested,"Browse,Data,Item"
 subject,Subjects,The topic of the resource. (OCA) ,dcterms:subject,"topics represented in the object, should use a controlled vocabulary. multiple subjects should be separated by a semi-colon",Forestry;Idaho,no,"Subjects,Browse,Data"
