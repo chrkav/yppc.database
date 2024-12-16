@@ -4,7 +4,7 @@ filename,,the name of the corresponding file in the project’s objects director
 youtubeid,,The YouTube ID of an item hosted on YouTube. This should be blank for all non-youtube items. It is used to access the YouTube API for images and video of the item.,na,"You can find the ID of a YouTube video by looking at the end of a Share link, e.g. in https://youtu.be/CVXQ3X6Q8oU the ID is the string after the slash. Make sure this field is empty (no spaces!) for non-youtube items!",CVXQ3X6Q8oU,yes (for youtube items only),everything
 title,Title,A name given to the resource. (OCA),dcterms:title,primary name of the object,First item,yes,"Browse,Map,Timeline,Data,Item"
 author,Author,An entity primarily responsible for making the resource. (OCA) ,dcterms:creator,"creator/author of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",suggested,Item
-age_group,Age Group,The age group that the play is appropriate for, (OCA) ,local standard
+age_group,Age Group,The age group that the play is appropriate for, (OCA) ,,local standard
 boy,Boys,How many roles there are for boys,local standard
 girl,Girls,How many roles there are for girls,local standard
 gender_neutral,Gender Neutral,How many roles there are for any gender,local standard
