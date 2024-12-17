@@ -1,5 +1,5 @@
 field,display_name
 title,Title
-date,Date
+author,Author
 description,Description
-subject,Subjects
+age_group,Age Group
