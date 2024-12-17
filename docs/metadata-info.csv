@@ -1,24 +1,23 @@
 Field,display_name,Definition,dc-map,Notes,Example,Required,used-by
-id,,a unique string with no spaces or special characters that will be used as id in the website,na,must be unique in the project,ts104,yes,everything
-filename,,the name of the corresponding file in the project’s objects directory. ,na,"Should have the extension (.jpg, .pdf, or .mp3), no spaces or special characters.",ts104.pdf,yes,Item
+id,,a unique string with no spaces or special characters that will be used as id in the website,dc:identifier,must be unique in the project,ts104,yes,everything
+filename,,the name of the corresponding file in the projectâ€™s objects directory.,na,"Should have the extension (.jpg, .pdf, or .mp3), no spaces or special characters.",ts104.pdf,yes,Item
 youtubeid,,The YouTube ID of an item hosted on YouTube. This should be blank for all non-youtube items. It is used to access the YouTube API for images and video of the item.,na,"You can find the ID of a YouTube video by looking at the end of a Share link, e.g. in https://youtu.be/CVXQ3X6Q8oU the ID is the string after the slash. Make sure this field is empty (no spaces!) for non-youtube items!",CVXQ3X6Q8oU,yes (for youtube items only),everything
-title,Title,A name given to the resource. (OCA),dcterms:title,primary name of the object,First item,yes,"Browse,Map,Timeline,Data,Item"
-author,Author,An entity primarily responsible for making the resource. (OCA) ,dcterms:creator,"creator/author of the object. Usually given Last, First, with multiple authors separated using semi-colon","Will, Evan",suggested,Item
-age_group,Age Group,The age group that the play is appropriate for, (OCA) ,,local standard
-boy,Boys,How many roles there are for boys,local standard
-girl,Girls,How many roles there are for girls,local standard
-gender_neutral,Gender Neutral,How many roles there are for any gender,local standard
-required_cast,Required Cast,How many cast members are needed for this play. ,
-date,Date Created,A point or period of time associated with an event in the lifecycle of the resource. (OCA) ,dc:date,"date of creation of original object, given in ISO 8601 format. In this simple project, please use only a single date.",1901-03-01,suggested,"Browse,Timeline,Data,Item"
-description,Description,An account of the resource. (OCA) ,dcterms:description,"A free text description or abstract of the object. Anything significant about the digital resource not covered elsewhere. Use standard punctuation and grammar to describe the item’s history, physical appearance, contents, abstract, etc.",Black and white photograph of white pines in forest,suggested,"Browse,Data,Item"
-subject,Subjects,The topic of the resource. (OCA) ,dcterms:subject,"topics represented in the object, should use a controlled vocabulary. multiple subjects should be separated by a semi-colon",Forestry;Idaho,no,"Subjects,Browse,Data"
-location,Locations,A geographic location to which the resource applies. (DCMI) ,dcterms:spatial,"spatial characteristics of what the object is about, subject-like locations and geographical terms.","Sandpoint, Idaho; Lake Pend Oreille",,Item
-latitude,Latitude,A geographic coordinate that specifies the north-south position of an item's place. (DCMI) ,na,"lat should expressed in decimal degree format (rather than degrees, minutes, seconds), with 6 decimal points.",46.731643,,"Map,Item"
-longitude,Longitude,A geographic coordinate that specifies the east-west position of an item's place. (DCMI) ,na,"longitude should expressed in decimal degree format (rather than degrees, minutes, seconds), with 6 decimal points.",-117.165625,,"Map,Item"
-collection,Source Collection,A related resource from which the described resource is derived. (DCMI) ,dcterms:isPartOf,"a collection or aggregation that the item is part of, generally a specific collection and the source archives where the materials were digitized from. ","PG 5, University of Idaho Library Special Collections and Archives",no,Item
-identifier,Source Identifier,An unambiguous reference to the resource within a given context. (OCA) ,dcterms:identifier,"The identifier of object in its original context, as it is labeled in the source collection.",PG3 108a,no,Item
-type,Type,The nature or genre of the resource. (OCA) ,dcterm:type,"The general genre of object, using the DCMI type vocabulary.",Image;StillImage,yes,Item
-format,Format,The digital file format of the resource. (OCA) ,dc:format,"Use for the digital format of the resource, form as an Internet Media Type (IMT) term. For multiple formats, separate values with a semicolon.",image/jpeg; application/pdf,no,Item
-language,Language,,dcterms:language,"language used in the object, ISO 639-3",eng,no,Item
-rights,Rights,Information about the copyright of the resource. (OCA) ,dc:rights,Free text description of rights status,Public domain,no,Item
-rights-statement,Standardized rights,Information about the copyright of the resource. (OCA) ,dcterms:RightsStatement,A standardized statement URI from http://rightsstatements.org/en/,http://rightsstatements.org/vocab/NoC-US/1.0/,no,Item
+title,Title,A name given to the resource. (OCA),dcterms:title,primary name of the object,Monty Python and the Holy Grail,yes,"Browse,Map,Timeline,Data,Item"
+author,Author,An entity primarily responsible for making the resource. (OCA),dcterms:creator,"creator/author of the object. Usually given Last, First, with multiple authors separated using semi-colon","Patsy, Come",suggested,Item
+age_group,Age Group,The age group that the play is appropriate for,dcterms:audience,"Age group the play is appropriate for in ages, not grades.",08-18,suggested,"Browse,Data,Item"
+boy,Boys,How many roles there are for boys,na,How many parts for boys?,12,required,"Browse,Data,Item"
+girl,Girls,How many roles there are for girls,na,How many parts for girls?,12,required,"Browse,Data,Item"
+gender_neutral,Gender Neutral,How many roles there are for any gender,na,How many parts are gender neutral?,12,required,"Browse,Data,Item"
+required_cast,Required Cast,How many cast members are needed for this play.,na,Total required cast THIS IS AN AUTOGENERATED FIELD DO NOT INPUT VALUES,12,required,"Browse,Data,Item"
+ensemble,Ensemble,Ensemble cast? True/False Boolean operator,na,,TRUE,required,"Browse,Data,Item"
+length,Length,Number of pages of the script; may be approximate,dcterms:extent,,42,suggested,"Browse,Data,Item"
+date_published,Date Published,Date play was published (if known; can be approximate) Plays that enter the public domain in the next 12 months are highlighted in teal.,dc:date,"date of creation of original object, given in ISO 8601 format. In this simple project, please use only a single date.",1983,suggested,"Browse,Timeline,Data,Item"
+publisher,Publisher,Publisher,dc:publisher,,Anarcho-syndicalist Commune,suggested,"Browse,Data,Item"
+licensing,Licensing,Licensing restrictions? See Copyrights Guidance tab for more information; plays published before 1929 (as of 2024) are in the public domain. True/False Boolean operator,dcterms:license,,TRUE,required,"Browse,Data,Item"
+copies,Copies,Number of copies of the play,na,,12,suggested,"Browse,Data,Item"
+musical,Musical?,Is this play a musical? True/False Boolean operator,na,,TRUE,suggested,"Browse,Data,Item"
+adaptation,Adaptation?,Is this play an adaptation from another story or play? True/False Boolean operator,dcterms:hasVersion,,FALSE,suggested,"Browse,Data,Item"
+adaptation_of,Adaptation of,Source material if known.,dc:relation,,Monty Python ik den Holie Grailen,suggested,"Browse,Data,Item"
+description,Description,Short description of the play or the plot.,dc:description,"A free text description or abstract of the object. Anything significant about the digital resource not covered elsewhere. Use standard punctuation and grammar to describe the itemâ€™s history, physical appearance, contents, abstract, etc.",This play wants you to fetch a shrubbery.,suggested,"Browse,Data,Item"
+colocated,Co-located?,Is the play co-located in a folder with another play? Annotate where it is filed in the notes column.,na,,Copies are located in the binder titled Castle Aargh.,suggested,"Browse,Data,Item"
+notes,Notes,Any other notes.,na,,They were forced to eat Robin's minstrels. And there was much rejoicing.,suggested,"Browse,Data,Item"
