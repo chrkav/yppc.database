@@ -1,7 +1,7 @@
 field,index,display
 title,true,true
-date,true,true
-creator,true,false
+author,true,true
+required_cast,true,true
+length,true,true
+age_group,true,true
 description,true,true
-subject,true,true
-location,true,false
