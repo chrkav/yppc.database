@@ -4,4 +4,6 @@ author,true,true
 required_cast,true,true
 length,true,true
 age_group,true,true
+licensing,true,true
+musical,true,true
 description,true,true
