@@ -11,4 +11,3 @@ cloud-fields: age_group
 ## Browse Age Groups
 
 Use this word cloud visualization to browse the plays that are appropriate for each age group.
-Word size is determined by frequency and all words link to a corresponding collection search.
