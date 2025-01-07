@@ -5,7 +5,7 @@ permalink: /agegroups.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.subjects-fields"
 # a cloud visualization will be added below the content in this file
-cloud-fields: age_group
+cloud-fields: site.data.theme.age_group-fields
 ---
 
 ## Browse Age Groups
