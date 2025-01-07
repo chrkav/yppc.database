@@ -1,4 +1,6 @@
 field,display_name,btn,hidden,sort_name
 title,Title,,,
-creator,Creator,,,
-
+author,Author,,,
+age_group,Age Group,,,
+required_cast,,,
+description,Description,,,
