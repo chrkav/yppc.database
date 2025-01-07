@@ -23,23 +23,23 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 ##########
 # Required Cast PAGE
 #
-required_cast-fields: required_cast; # set the field to be featured in the cloud (if left blank, none will be generated)
-required_cast-min: 1 # min size for subject cloud, too many terms = slow load time!
-required_cast-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+Required Cast-fields: required_cast; # set the field to be featured in the cloud (if left blank, none will be generated)
+Required Cast-min: 1 # min size for subject cloud, too many terms = slow load time!
+Required Cast-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
 # Length PAGE
 #
-length-fields: length # set the field to be featured in the cloud
-length-min: 1 # min size for subject cloud, too many terms = slow load time!
-length-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+Length-fields: length # set the field to be featured in the cloud
+Length-min: 1 # min size for subject cloud, too many terms = slow load time!
+Length-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # Age Group PAGE
 #
-age_group-fields: age_group # set the field to be featured in the cloud
-age_group-min: 1 # min size for subject cloud, too many terms = slow load time!
-age_group-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+Age Group-fields: age_group # set the field to be featured in the cloud
+Age Group-min: 1 # min size for subject cloud, too many terms = slow load time!
+Age Group-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # DATA 
