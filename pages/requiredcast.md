@@ -8,7 +8,6 @@ permalink: /requiredcast.html
 cloud-fields: required_cast
 ---
 
-## Browse Locations
+## Browse Required Cast
 
-Use this word cloud visualization to browse the number of roles available in the play.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Browse the number of roles available in the play.
