@@ -2,5 +2,5 @@ field,display_name,btn,hidden,sort_name
 title,Title,,,
 author,Author,,,
 age_group,Age Group,,,
-required_cast,,,
+required_cast,Required Cast,,,
 description,Description,,,
