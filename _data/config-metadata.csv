@@ -1,6 +1,6 @@
 field,display_name,browse_link,external_link
-title,Title,,
-author,Author,,
+title,Title,true,
+author,Author,true,
 age_group,Age Group,,
 boy,Boys,,
 girl,Girls,,
