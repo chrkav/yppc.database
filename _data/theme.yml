@@ -46,9 +46,9 @@ Age Group-stopwords: # set of subjects separated by ; that will be removed from 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "id,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,date_published,publisher,licensing,copies,musical,adaptation,adaptation_of,description,colocated,notes	"
+metadata-export-fields: "id,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,date_published,publisher,licensing,copies,musical,adaptation,adaptation_of,description,colocated,notes,format"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "id,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,date_published,publisher,licensing,copies,musical,adaptation,adaptation_of,description,colocated,notes	"
+metadata-facets-fields: "id,title,author,age_group,boy,girl,gender_neutral,required_cast,ensemble,length,date_published,publisher,licensing,copies,musical,adaptation,adaptation_of,description,colocated,notes,format"
 
 ##########
 # COMPOUND OBJECTS
