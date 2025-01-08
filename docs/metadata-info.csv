@@ -21,3 +21,4 @@ adaptation_of,Adaptation of,Source material if known.,dc:relation,,Monty Python 
 description,Description,Short description of the play or the plot.,dc:description,"A free text description or abstract of the object. Anything significant about the digital resource not covered elsewhere. Use standard punctuation and grammar to describe the itemâ€™s history, physical appearance, contents, abstract, etc.",This play wants you to fetch a shrubbery.,suggested,"Browse,Data,Item"
 colocated,Co-located?,Is the play co-located in a folder with another play? Annotate where it is filed in the notes column.,na,,Copies are located in the binder titled Castle Aargh.,suggested,"Browse,Data,Item"
 notes,Notes,Any other notes.,na,,They were forced to eat Robin's minstrels. And there was much rejoicing.,suggested,"Browse,Data,Item"
+format,Format,Which format is this object in,format,,text,yes,"Browse,Data,Item"
