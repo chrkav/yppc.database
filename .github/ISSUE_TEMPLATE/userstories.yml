@@ -29,8 +29,6 @@ body:
 
   - type: checkboxes
     id: story_type
-    validations:
-       required: true
     attributes:
       label: Type of User Story
       description: Select the type of user story.
@@ -38,6 +36,8 @@ body:
         - label: New feature/tool
         - label: Update to existing feature/tool
         - label: Other
+    validations:
+       required: true
 
   - type: input
     id: story_type_other
