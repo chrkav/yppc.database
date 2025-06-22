@@ -4,7 +4,7 @@ title: "User story: "
 labels: ["user story"]
 body:
   - type: input
-    id: User story
+    id: User_story
     attributes:
       label: User story name
       description: Give your user story a descriptive name.
@@ -12,7 +12,7 @@ body:
       required: true
 
   - type: input
-    id: Contact information
+    id: Contact_information
     attributes:
       label: Email address
       description: Please share your email.
@@ -20,7 +20,7 @@ body:
       required: true
 
   - type: input
-    id: Contact information
+    id: first_name
     attributes:
       label: First name
       description: First name
@@ -28,7 +28,7 @@ body:
       required: true
 
   - type: input
-    id: Contact information
+    id: last_name
     attributes:
       label: Last name
       description: Last name
@@ -36,7 +36,7 @@ body:
       required: true
 
   - type: checkboxes
-    id: story-type
+    id: story_type
     attributes:
       label: Type of User Story
       description: Select the type of user story.
@@ -48,7 +48,7 @@ body:
       required: true
 
   - type: input
-    id: story-type
+    id: story_type_other
     attributes: 
       label: Other
       description: If you selected "Other", please briefly describe your story type.
@@ -56,7 +56,7 @@ body:
       required: true
 
   - type: checkboxes
-    id: story-topic
+    id: story_topic
     attributes:
       label: User Story topic
       description: From the [Mukurtu User Manual](https://mukurtu-user-manual.readthedocs.io/). Can select multiple topics. Specify other if existing topics do not apply.
@@ -69,7 +69,7 @@ body:
         - label: Mukurtu dictionary
         - label: Site look and feel
         - label: Roundtrip (import/export)
-        - label: Other
+        - label: Other topics
     validations:
       required: true
 
