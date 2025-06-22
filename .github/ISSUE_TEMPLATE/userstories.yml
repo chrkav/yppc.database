@@ -29,11 +29,11 @@ body:
 
   - type: checkboxes
     id: story_type
+    validations:
+       required: true
     attributes:
       label: Type of User Story
       description: Select the type of user story.
-      validations:
-        required: true
       options:
         - label: New feature/tool
         - label: Update to existing feature/tool
