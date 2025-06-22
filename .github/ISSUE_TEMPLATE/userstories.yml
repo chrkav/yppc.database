@@ -123,7 +123,7 @@ body:
     id: Acceptance_criteria
     attributes:
       label: Acceptance Criteria
-      description: A list of items or descriptions of what success looks like for the action or feature described. For a list, please number `eg: 1. Lorem ipsum. 2. Dolor amat...` or bullet `eg: *Lorem ipusm. *Dolar amat...` your points.
+      description: A list of items or descriptions of what success looks like for the action or feature described. For a list, please number or bullet your points.
     validations:
       required: true
 
