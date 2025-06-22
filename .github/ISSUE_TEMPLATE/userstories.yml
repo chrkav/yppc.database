@@ -1,5 +1,5 @@
 name: Mukurtu CMS User Stories Submission
-description: User stories are a plain English description of a software feature or function from the end-user perspective.
+description: User stories are a plain English description of a software feature or function from the end-user perspective. All fields are required unless otherwise indicated.
 title: Mukurtu CMS User Stories Submission
 labels: ["user stories"]
 body:
@@ -22,7 +22,7 @@ body:
   - type: input
     id: name
     attributes:
-      label: First and Last name
+      label: First and last name
       description: Please fill in your first and last name.
     validations:
       required: true
@@ -30,7 +30,7 @@ body:
   - type: checkboxes
     id: story_type
     attributes:
-      label: Type of User Story
+      label: Type of user story
       description: Select the type of user story.
       options:
         - label: New feature/tool
@@ -50,7 +50,7 @@ body:
   - type: checkboxes
     id: story_topic
     attributes:
-      label: User Story topic
+      label: Topic of user story
       description: From the [Mukurtu User Manual](https://mukurtu-user-manual.readthedocs.io/). Can select multiple topics. Specify other if existing topics do not apply.
       options:
         - label: Hosting, site setup, and administration
@@ -76,7 +76,7 @@ body:
   - type: checkboxes
     id: user_type
     attributes:
-      label: As a `type of user`
+      label: In this user role
       description: Select each user type that this applies to. Can select multiple user types. 
       options:
         - label: Mukurtu administrator
@@ -98,7 +98,7 @@ body:
   - type: input
     id: Action
     attributes:
-      label: I want to `action`
+      label: I want to perform this action
       description: Please describe the action you would like to take in this role.
     validations:
       required: true
@@ -106,7 +106,7 @@ body:
   - type: input
     id: Benefit
     attributes:
-      label: So that `benefit` 
+      label: So that this benefit will occur. 
       description: Please describe the benefit that taking this action would confer.
     validations:
       required: true
@@ -114,7 +114,7 @@ body:
   - type: input
     id: Acceptance_criteria
     attributes:
-      label: Acceptance Criteria
+      label: Acceptance criteria
       description: A list of items or descriptions of what success looks like for the action or feature described. For a list, please number or bullet your points.
     validations:
       required: true
@@ -160,7 +160,7 @@ body:
   - type: checkboxes
     id: origin_user_story
     attributes:
-      label: Origination of User Story
+      label: Origination of user story
       description: If you are not a member of the Mukurtu Hubs project, please skip this question.
       options:
         - label: Requested by Mukurtu Hubs staff
