@@ -20,7 +20,7 @@
 <!-- div for cloud feature -->
 <div id="{{ functionName }}_div" class="text-center my-4 bg-{{ include.background | default: 'light' }} border rounded p-2"></div>
 <script>
-    {% if include.shuffle == true %}
+    {% if include.shuffle == false %}
     /* Fisher-Yates shuffle https://bost.ocks.org/mike/shuffle/ */
     function shuffle(array) {
         var m = array.length, t, i;
